@@ -8,7 +8,7 @@ rojo_bajo = np.array([0, 100, 20], np.uint8)
 rojo_alto = np.array([25, 255, 255], np.uint8)
 
 # Abre la cámara web
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while True:
     # Obtiene un nuevo frame de la cámara web
